@@ -1,3 +1,3 @@
 # InstructPI
 
-Instruct tuing for Paraphrase Identification (PI).
+Instruct tuning for Paraphrase Identification (PI).
