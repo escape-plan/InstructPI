@@ -13,7 +13,7 @@ root_path = './'
 os.chdir(root_path)
 
 experiment_name = 'QQP'
-model_checkpoint = '/public/home/hongy/pretrained_models/flan-t5-base'
+model_checkpoint = 'flan-t5-base'
 print('Experiment Name: ', experiment_name)
 model_out_path = './Models'
 model_out_path = os.path.join(model_out_path, f"{model_checkpoint.split('/')[-1]}-{experiment_name}")
