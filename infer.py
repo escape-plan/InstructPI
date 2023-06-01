@@ -3,7 +3,7 @@ import pandas as pd
 from instructions import InstructionsHandler
 from InstructPI.data_prep import DatasetLoader
 
-model_out_path = '/public/home/hongy/ray/InstructPI/Models/flan-t5-large-QQP/checkpoint-30321'
+model_out_path = './Models/flan-t5-large-QQP/checkpoint-30321'
 t5_exp = T5Generator(model_out_path)
 experiment_name = 'QQP'
 
